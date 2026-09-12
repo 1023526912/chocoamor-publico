@@ -1,0 +1,588 @@
+:root{--light:#fff2f7;--soft:#ffd4e3;--pink:#f45f98;--dark-pink:#dc2770;--berry:#9e174c;--wine:#551029;--white:#fffafd;--line:#eaa2bd}*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--light);color:var(--wine);font-family:"DM Sans",sans-serif}a{text-decoration:none;color:inherit}.header{height:86px;padding:0 clamp(20px,5vw,72px);display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid var(--line);background:#fff2f7ed;position:sticky;top:0;z-index:10;backdrop-filter:blur(12px)}.logo-link img{width:68px;height:68px;border-radius:50%;object-fit:cover}.header nav{display:flex;gap:28px;font-size:14px;font-weight:700}.header nav a:hover{color:var(--dark-pink)}.menu-button{display:none;border:0;background:none;font-size:28px;color:var(--wine)}.button{display:inline-flex;align-items:center;justify-content:center;min-height:50px;padding:0 24px;border-radius:999px;font-size:14px;font-weight:700}.header-button{min-height:42px;background:var(--soft);color:var(--berry)}.primary{background:var(--dark-pink);color:#fff;box-shadow:0 9px 24px #dc27703c}.outline{border:1.5px solid var(--dark-pink);color:var(--dark-pink);background:var(--white)}.hero{min-height:650px;display:grid;grid-template-columns:1.1fr .9fr;align-items:center;padding:70px clamp(24px,8vw,120px);background:linear-gradient(120deg,var(--light) 53%,#ffc9dc 53%)}.eyebrow{text-transform:uppercase;letter-spacing:.22em;font-size:12px;font-weight:700;color:var(--dark-pink);margin:0 0 18px}.hero h1,.section h2{font:700 clamp(48px,6vw,82px)/.96 "Playfair Display",serif;letter-spacing:-.04em;margin:0}.hero h1 em{color:var(--dark-pink)}.intro{font-size:18px;line-height:1.7;max-width:570px;color:#7c3b53;margin:28px 0}.actions{display:flex;gap:12px;flex-wrap:wrap}.hero-card{width:min(390px,90%);aspect-ratio:1;background:var(--pink);border-radius:50%;margin:auto;display:flex;flex-direction:column;align-items:center;justify-content:center;position:relative;box-shadow:inset 0 0 0 22px #f795b8}.hero-card img{width:48%;border-radius:50%;box-shadow:0 18px 35px #74183752}.hero-card span{color:white;font-size:34px;position:absolute;top:35px}.hero-card p{position:absolute;right:-35px;bottom:20px;background:white;padding:15px 18px;border-radius:18px;font:italic 17px "Playfair Display",serif;max-width:210px;transform:rotate(3deg)}.ribbon{height:72px;background:var(--dark-pink);color:white;display:flex;align-items:center;justify-content:space-around;font-family:"Playfair Display",serif;font-weight:700;letter-spacing:.15em}.ribbon b{color:#ffb4cf}.section{padding:100px clamp(20px,7vw,105px)}.about{display:grid;grid-template-columns:.7fr 1.3fr;gap:80px;align-items:center;max-width:1200px;margin:auto}.about-mark{width:300px;height:300px;border-radius:50% 50% 45% 45%;background:var(--pink);color:white;display:flex;flex-direction:column;align-items:center;justify-content:center;font:700 36px/1 "Playfair Display",serif;box-shadow:22px 22px 0 var(--soft)}.about-mark em{font-size:48px}.about h2,.cakes h2,.contact h2{font-size:clamp(43px,5vw,66px)}.about p:not(.eyebrow),.cakes p{font-size:18px;line-height:1.7;color:#7c3b53}.menu-section{background:#ffe5ee}.section-title{text-align:center;max-width:700px;margin:0 auto 38px}.section-title h2{font-size:clamp(46px,5vw,68px)}.filters{display:flex;gap:10px;justify-content:center;flex-wrap:wrap;margin-bottom:36px}.filters a{background:#ffcbdc;border:1px solid #efa1bc;padding:10px 15px;border-radius:999px;font-size:13px;font-weight:700}.menu-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:22px;max-width:1200px;margin:auto;align-items:start}.menu-card{background:var(--white);border:1px solid #efacc4;border-radius:26px;padding:27px;scroll-margin-top:105px}.menu-card h3{display:flex;align-items:center;gap:12px;margin:0;padding-bottom:18px;border-bottom:1px dashed var(--line);font:700 26px "Playfair Display",serif}.menu-card ul{list-style:none;padding:12px 0 0;margin:0}.menu-card li{display:flex;align-items:flex-end;gap:7px;padding:7px 0;font-size:15px}.menu-card li span{max-width:72%}.menu-card li i{flex:1;border-bottom:1px dotted #cb7696;transform:translateY(-4px)}.menu-card strong{color:var(--dark-pink);white-space:nowrap}.note{text-align:center;color:#94566e;font-size:13px}.cakes{background:var(--soft);display:grid;grid-template-columns:.8fr 1.2fr;align-items:center;gap:70px}.cake-art{height:360px;display:flex;flex-direction:column;justify-content:flex-end;align-items:center}.tier{background:linear-gradient(#fff8fb,#ffabc8);border:3px solid #e95c91;border-radius:20px 20px 10px 10px;box-shadow:inset 0 -13px 0 #f279a5}.tier-small{width:145px;height:72px}.tier-medium{width:205px;height:86px;margin-top:-4px}.tier-large{width:265px;height:96px;margin-top:-4px}.spark{font-size:66px;color:var(--dark-pink)}.tags{display:flex;gap:9px;flex-wrap:wrap;margin:22px 0}.tags span{background:#fff5f8;border:1px solid #e999b6;padding:9px 12px;border-radius:10px;font-size:13px;font-weight:700}.contact{display:grid;grid-template-columns:1.2fr .8fr .8fr;gap:55px;align-items:center;background:#f688b0}.contact small{letter-spacing:.16em}.contact h3{font:700 22px "Playfair Display",serif;margin:10px 0 5px}.contact-buttons{display:flex;flex-direction:column;gap:10px}.contact-buttons a{padding:14px 17px;border-radius:13px;background:#ffc1d7;display:flex;flex-direction:column;font-size:13px}.contact-buttons strong{font-size:16px}footer{min-height:140px;background:#681331;color:#ffdbe8;display:flex;align-items:center;justify-content:space-between;padding:25px clamp(22px,7vw,105px);font-size:13px}footer img{width:75px;height:75px;border-radius:50%}.floating-whatsapp{position:fixed;right:20px;bottom:20px;background:var(--dark-pink);color:white;padding:14px 18px;border-radius:999px;font-size:14px;font-weight:700;box-shadow:0 10px 30px #6813314d;z-index:12}
+@media(max-width:850px){.header nav{display:none;position:absolute;top:72px;left:15px;right:15px;background:white;padding:20px;border-radius:18px;box-shadow:0 15px 40px #68133124;flex-direction:column}.header nav.open{display:flex}.menu-button{display:block}.header{height:72px}.header-button{display:none}.logo-link img{width:58px;height:58px}.hero{grid-template-columns:1fr;padding-top:55px}.hero-card{margin-top:55px}.about,.cakes,.contact{grid-template-columns:1fr;gap:35px}.about-mark{width:230px;height:230px}.menu-grid{grid-template-columns:1fr}footer{flex-direction:column;gap:15px;text-align:center}}@media(max-width:520px){.hero{min-height:auto;padding:55px 20px 70px;background:linear-gradient(180deg,var(--light) 55%,#ffc9dc 55%)}.hero h1{font-size:47px}.hero-card p{right:-5px}.ribbon{font-size:11px;height:57px}.section{padding:72px 18px}.menu-card{padding:22px 17px}.menu-card li{font-size:14px}.contact{padding-bottom:95px}.floating-whatsapp{right:13px;bottom:13px}}
+
+/* Sección de tortas personalizadas */
+.cake-feature{position:relative;max-width:480px}.cake-feature img{display:block;width:100%;height:560px;object-fit:cover;border-radius:190px 190px 28px 28px;box-shadow:20px 20px 0 #f395b7}.cake-feature span{position:absolute;right:-20px;bottom:28px;background:white;padding:13px 18px;border-radius:999px;color:var(--dark-pink);font:600 16px "Playfair Display",serif;transform:rotate(3deg)}.cake-copy>p{max-width:680px}.cake-data{display:grid;grid-template-columns:1fr 1.15fr;gap:15px;margin:25px 0}.cake-data>div{background:#fff6f9;border:1px solid #eca5bf;border-radius:20px;padding:21px}.cake-data h3{font:700 22px "Playfair Display",serif;margin:0 0 13px}.cake-data ul{list-style:none;padding:0;margin:0}.flavors ul{display:flex;flex-wrap:wrap;gap:7px}.flavors li{padding:7px 10px;background:#ffd5e4;border-radius:999px;font-size:13px;font-weight:600}.flavors small{font-size:11px}.prices li{display:flex;justify-content:space-between;gap:14px;padding:7px 0;border-bottom:1px dotted #d786a3}.prices li:last-child{border:0}.prices strong{color:var(--dark-pink)}.cake-gallery{background:#fff6f9}.gallery-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;max-width:1200px;margin:auto}.gallery-grid img{width:100%;height:420px;object-fit:cover;border-radius:22px;box-shadow:0 10px 30px #68133116;transition:transform .25s}.gallery-grid img:hover{transform:translateY(-5px)}
+@media(max-width:850px){.cake-feature{margin:auto}.cake-data{grid-template-columns:1fr}.gallery-grid{grid-template-columns:repeat(2,1fr)}}@media(max-width:520px){.cake-feature img{height:440px;border-radius:130px 130px 24px 24px}.cake-feature span{right:5px}.gallery-grid{grid-template-columns:1fr}.gallery-grid img{height:430px}}
+
+/* Botones superiores y efectos interactivos */
+.header-actions{display:flex;align-items:center;gap:9px}.header-whatsapp{background:var(--dark-pink);color:white}.logo-link img,.hero-card img,.about-mark img,.menu-card{transition:transform .3s ease,box-shadow .3s ease}.logo-link:hover img{transform:scale(1.12)}.hero-card img{width:84%;height:84%;object-fit:cover}.hero-card:hover img{transform:scale(1.07);box-shadow:0 22px 45px #74183770}.about-mark{overflow:hidden}.about-mark img{width:94%;height:94%;border-radius:50%;object-fit:cover}.about-mark:hover img{transform:scale(1.09)}.menu-card:hover{transform:scale(1.025);box-shadow:0 18px 45px #8d234b22;z-index:2}.filters a{transition:transform .22s ease,background .22s ease}.filters a:hover{transform:scale(1.06);background:#f8adc8}
+@media(max-width:850px){.header-actions{margin-left:auto}.header-actions .instagram-link{display:none}.header-actions .header-whatsapp{display:inline-flex;min-height:40px;padding:0 14px;font-size:12px}.menu-button{order:3;margin-left:8px}}@media(prefers-reduced-motion:reduce){.logo-link img,.hero-card img,.about-mark img,.menu-card,.filters a{transition:none}}
+
+/* Ajuste de marca: logo y fondos en forma de corazón */
+:root{--heart-shape:polygon(50% 18%,56% 10%,65% 5%,75% 5%,84% 9%,91% 16%,96% 25%,98% 35%,97% 45%,93% 55%,87% 64%,79% 72%,69% 81%,59% 90%,50% 98%,41% 90%,31% 81%,21% 72%,13% 64%,7% 55%,3% 45%,2% 35%,4% 25%,9% 16%,16% 9%,25% 5%,35% 5%,44% 10%)}
+
+/* El logo principal deja de verse circular/cuadrado y adopta la silueta de corazón */
+.logo-link img,
+.hero-card img,
+.about-mark img,
+footer img{
+  clip-path:var(--heart-shape);
+  border-radius:0;
+  object-fit:cover;
+}
+
+/* Corazones decorativos detrás del logo principal */
+.hero-card{
+  width:min(420px,92%);
+  aspect-ratio:1/1;
+  border-radius:0;
+  background:#f58ab1;
+  clip-path:var(--heart-shape);
+  box-shadow:none;
+  overflow:visible;
+}
+.hero-card::before{
+  content:"";
+  position:absolute;
+  inset:7%;
+  background:#f9b2ca;
+  clip-path:var(--heart-shape);
+  z-index:0;
+}
+.hero-card img{
+  position:relative;
+  z-index:1;
+  width:72%;
+  height:72%;
+  object-fit:cover;
+}
+.hero-card span,.hero-card p{z-index:2}
+
+/* Segundo logo: más pequeño para que el zoom conserve aire dentro del corazón */
+.about-mark{
+  width:320px;
+  height:300px;
+  border-radius:0;
+  background:#f58ab1;
+  clip-path:var(--heart-shape);
+  box-shadow:none;
+  overflow:visible;
+  position:relative;
+}
+.about-mark::before{
+  content:"";
+  position:absolute;
+  inset:7%;
+  background:#ffc9dc;
+  clip-path:var(--heart-shape);
+  z-index:0;
+}
+.about-mark img{
+  width:68%;
+  height:68%;
+  position:relative;
+  z-index:1;
+}
+.about-mark:hover img{transform:scale(1.07)}
+
+/* Mini logos de cabecera y pie también con forma de corazón */
+.logo-link img{width:68px;height:68px}
+footer img{width:75px;height:75px}
+
+@media(max-width:850px){
+  .about-mark{width:250px;height:235px}
+  .logo-link img{width:58px;height:58px}
+}
+
+/* === Ajuste visual solicitado: composición de corazones como en la referencia === */
+.hero-card,
+.about-mark{
+  clip-path:none !important;
+  overflow:visible !important;
+  background:transparent !important;
+  box-shadow:none !important;
+  isolation:isolate;
+}
+
+.hero-card::before,
+.hero-card::after,
+.about-mark::before,
+.about-mark::after{
+  content:"";
+  position:absolute;
+  left:50%;
+  top:50%;
+  transform:translate(-50%,-50%);
+  clip-path:polygon(50% 96%,10% 59%,4% 48%,2% 37%,4% 26%,10% 16%,19% 9%,30% 6%,39% 8%,46% 12%,50% 18%,54% 12%,61% 8%,70% 6%,81% 9%,90% 16%,96% 26%,98% 37%,96% 48%,90% 59%);
+  z-index:-2;
+  pointer-events:none;
+}
+.hero-card::before{
+  width:116%;
+  height:116%;
+  background:#f7b1c9;
+  opacity:.48;
+}
+.hero-card::after{
+  width:101%;
+  height:101%;
+  background:#f59abd;
+  opacity:.45;
+  z-index:-1;
+}
+
+.hero-card img{
+  width:78% !important;
+  height:78% !important;
+  object-fit:contain !important;
+  clip-path:none !important;
+  border-radius:0 !important;
+  box-shadow:0 16px 28px rgba(112,31,64,.18) !important;
+  transform:none;
+}
+.hero-card:hover img{transform:scale(1.055) !important}
+.hero-card span{top:7%;font-size:28px}
+.hero-card p{
+  right:-14%;
+  bottom:10%;
+  max-width:235px;
+  padding:15px 21px;
+  border-radius:18px;
+  transform:rotate(2deg);
+  z-index:3;
+}
+
+.about-mark{
+  width:330px !important;
+  height:320px !important;
+  position:relative;
+}
+.about-mark::before{
+  width:116%;
+  height:116%;
+  background:#f8bfd1;
+  opacity:.55;
+}
+.about-mark::after{
+  width:101%;
+  height:101%;
+  background:#f7a9c3;
+  opacity:.42;
+  z-index:-1;
+}
+.about-mark img{
+  width:72% !important;
+  height:72% !important;
+  object-fit:contain !important;
+  clip-path:none !important;
+  border-radius:0 !important;
+  box-shadow:0 12px 24px rgba(112,31,64,.16);
+}
+.about-mark:hover img{transform:scale(1.065) !important}
+
+@media(max-width:850px){
+  .about-mark{width:265px !important;height:255px !important}
+  .hero-card p{right:-4%}
+}
+@media(max-width:520px){
+  .hero-card{width:min(360px,92%)}
+  .hero-card p{right:0;bottom:5%;max-width:190px;font-size:15px}
+}
+
+/* === Logo Chocoamor actualizado con los dos corazones integrados en la imagen === */
+.hero-card::before,
+.hero-card::after,
+.about-mark::before,
+.about-mark::after{
+  display:none !important;
+}
+.hero-card img{
+  width:88% !important;
+  height:88% !important;
+  object-fit:contain !important;
+  border-radius:0 !important;
+  box-shadow:none !important;
+  transition:transform .3s ease !important;
+}
+.hero-card:hover img{
+  transform:scale(1.055) !important;
+}
+.about-mark img{
+  width:82% !important;
+  height:82% !important;
+  object-fit:contain !important;
+  border-radius:0 !important;
+  box-shadow:none !important;
+  transition:transform .3s ease !important;
+}
+.about-mark:hover img{
+  transform:scale(1.065) !important;
+}
+
+/* === Ajustes finales solicitados: misma marca arriba/abajo, nueva torta y galería con efecto especial === */
+.logo-link img,
+footer img{
+  clip-path:none !important;
+  border-radius:0 !important;
+  object-fit:contain !important;
+  background:transparent !important;
+  transition:transform .32s cubic-bezier(.2,.8,.2,1), filter .32s ease !important;
+}
+.logo-link:hover img,
+footer img:hover{
+  transform:scale(1.12) !important;
+  filter:drop-shadow(0 8px 14px rgba(104,19,49,.20));
+}
+
+/* Nueva torta principal, completa dentro del marco y con zoom suave */
+.cake-feature{
+  overflow:visible;
+}
+.cake-feature img{
+  width:100% !important;
+  height:560px !important;
+  object-fit:contain !important;
+  background:#fff7fa;
+  border-radius:34px !important;
+  box-shadow:20px 20px 0 #f395b7, 0 16px 35px rgba(104,19,49,.12) !important;
+  transition:transform .38s cubic-bezier(.2,.8,.2,1), box-shadow .38s ease !important;
+  transform-origin:center center;
+}
+.cake-feature:hover img{
+  transform:scale(1.055);
+  box-shadow:24px 24px 0 #f395b7, 0 24px 50px rgba(104,19,49,.20) !important;
+}
+
+/* Galería: cada torta tiene una inclinación propia y al pasar el mouse se endereza, sube y hace zoom */
+.gallery-grid{
+  perspective:1000px;
+}
+.gallery-grid img{
+  position:relative;
+  transition:transform .38s cubic-bezier(.2,.8,.2,1), box-shadow .38s ease, filter .38s ease !important;
+  transform-origin:center center;
+  filter:saturate(1.03) contrast(1.01);
+  will-change:transform;
+}
+.gallery-grid img:nth-child(1){transform:rotate(-1.6deg) translateY(2px)}
+.gallery-grid img:nth-child(2){transform:rotate(1.3deg) translateY(-2px)}
+.gallery-grid img:nth-child(3){transform:rotate(-1deg) translateY(3px)}
+.gallery-grid img:nth-child(4){transform:rotate(1.8deg) translateY(-1px)}
+.gallery-grid img:nth-child(5){transform:rotate(-1.3deg) translateY(2px)}
+.gallery-grid img:nth-child(6){transform:rotate(1.1deg) translateY(-2px)}
+.gallery-grid img:hover{
+  transform:translateY(-10px) rotate(0deg) scale(1.065) !important;
+  box-shadow:0 24px 55px rgba(104,19,49,.24) !important;
+  filter:saturate(1.12) contrast(1.03) brightness(1.02);
+  z-index:3;
+}
+
+@media(max-width:520px){
+  .cake-feature img{height:440px !important}
+}
+
+@media(prefers-reduced-motion:reduce){
+  .cake-feature img,.gallery-grid img,.logo-link img,footer img{transition:none !important}
+  .gallery-grid img{transform:none !important}
+}
+
+/* === Ajuste solicitado: cuadros de Sabores y Porciones con zoom suave === */
+.flavors,
+.prices{
+  transition:transform .32s cubic-bezier(.2,.8,.2,1), box-shadow .32s ease !important;
+  transform-origin:center center;
+  will-change:transform;
+}
+.flavors:hover,
+.prices:hover{
+  transform:translateY(-5px) scale(1.035);
+  box-shadow:0 18px 38px rgba(104,19,49,.16) !important;
+  z-index:2;
+}
+@media(prefers-reduced-motion:reduce){
+  .flavors,.prices{transition:none !important}
+  .flavors:hover,.prices:hover{transform:none !important}
+}
+
+/* ========================= CHOCOAMOR PLAY ========================= */
+.games-section{background:#fff7fa;position:relative;overflow:hidden}.games-section::before{content:"CHOCOAMOR";position:absolute;left:-2vw;top:30px;font:700 clamp(80px,14vw,210px)/1 "Playfair Display",serif;color:#f8dce6;letter-spacing:-.06em;pointer-events:none}.games-intro{position:relative;z-index:1;max-width:820px;margin:0 auto 55px;text-align:center}.games-intro h2{font-size:clamp(48px,6vw,76px)}.games-intro h2 em{color:var(--dark-pink)}.games-intro>p:last-child{max-width:680px;margin:24px auto 0;color:#7c3b53;font-size:17px;line-height:1.7}.game-cards{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:24px;max-width:1180px;margin:auto;position:relative;z-index:1}.game-card{border:0;text-align:left;padding:0;min-height:510px;border-radius:34px;position:relative;overflow:hidden;cursor:pointer;color:var(--wine);font:inherit;transition:transform .35s cubic-bezier(.2,.8,.2,1),box-shadow .35s ease}.game-card:hover{transform:translateY(-8px) rotate(-.4deg);box-shadow:0 28px 55px #731b3d24}.game-card-cake:hover{transform:translateY(-8px) rotate(.4deg)}.game-card-cookie{background:#ffc9d9}.game-card-cake{background:#ef6f9d;color:#fff}.game-card-number{position:absolute;top:26px;left:28px;width:46px;height:46px;border:1px solid currentColor;border-radius:50%;display:grid;place-items:center;font-size:12px;font-weight:700;opacity:.75}.game-card-art{height:300px;position:relative}.cookie-art{display:flex;align-items:center;justify-content:center}.cookie{width:170px;height:170px;border-radius:50%;background:radial-gradient(circle at 35% 30%,#f1bc7d 0 5%,transparent 6%),linear-gradient(145deg,#e4a761,#c98243);box-shadow:inset -14px -14px 0 #bd7136,0 20px 30px #8f4c3033;position:absolute}.cookie i{position:absolute;width:18px;height:18px;background:#63311f;border-radius:50%;box-shadow:inset 3px 3px #8b5236}.cookie i:nth-child(1){left:35px;top:43px}.cookie i:nth-child(2){right:40px;top:35px}.cookie i:nth-child(3){left:72px;bottom:35px}.cookie i:nth-child(4){right:30px;bottom:62px}.cookie-one{transform:translate(-52px,5px) rotate(-14deg)}.cookie-two{transform:translate(70px,-26px) rotate(18deg) scale(.72)}.sparkle{position:absolute;font-size:48px;color:#fff;right:15%;top:18%;animation:floatSpark 2s ease-in-out infinite}.cake-game-art{display:flex;flex-direction:column;justify-content:center;align-items:center;padding-top:30px}.mini-cake-top{font:700 56px "Playfair Display",serif;color:#fff3f7;margin-bottom:-5px;z-index:2}.mini-cake-layer{border-radius:24px 24px 12px 12px;border:5px solid #fff4f8;box-shadow:inset 0 -12px #d64078}.mini-cake-layer.layer-1{width:190px;height:74px;background:#ffadc8}.mini-cake-layer.layer-2{width:265px;height:92px;background:#ff91b5;margin-top:-4px}.mini-cake-plate{width:300px;height:14px;border-radius:50%;background:#fff4f8;margin-top:8px}.game-card-copy{padding:0 34px 34px;position:absolute;bottom:0;left:0;right:0}.game-card-copy small{letter-spacing:.18em;font-weight:700;font-size:10px}.game-card-copy h3{font:700 clamp(38px,4vw,54px)/.92 "Playfair Display",serif;margin:8px 0 14px;letter-spacing:-.04em}.game-card-copy p{max-width:340px;margin:0 0 22px;line-height:1.5;opacity:.78}.game-card-copy>span{font-weight:800;font-size:12px;letter-spacing:.08em}@keyframes floatSpark{50%{transform:translateY(-10px) rotate(10deg)}}
+.game-modal{position:fixed;inset:0;background:#491126c7;backdrop-filter:blur(12px);z-index:100;display:none;padding:24px}.game-modal.open{display:grid;place-items:center}.game-shell{width:min(1100px,100%);height:min(780px,calc(100vh - 48px));background:#fff7fa;border-radius:32px;overflow:hidden;box-shadow:0 35px 90px #2c091852;display:flex;flex-direction:column}.game-topbar{height:78px;border-bottom:1px solid #efb4c8;padding:0 24px;display:grid;grid-template-columns:1fr auto 1fr;align-items:center;gap:16px;background:#fff0f5}.game-brand{display:flex;align-items:center;gap:9px;font-size:11px;font-weight:800;letter-spacing:.14em}.game-brand img{width:48px;height:48px;object-fit:contain}.game-close{justify-self:end;width:44px;height:44px;border-radius:50%;border:1px solid #e59db7;background:white;color:var(--wine);font-size:26px;cursor:pointer}.game-progress{display:flex;gap:8px}.progress-dot{width:34px;height:6px;border-radius:99px;background:#efc8d6;transition:.25s}.progress-dot.done,.progress-dot.active{background:var(--dark-pink)}.game-stage{flex:1;min-height:0;overflow:auto;padding:40px clamp(22px,5vw,64px);display:flex;flex-direction:column}.stage-header{text-align:center;margin-bottom:26px}.stage-kicker{font-size:11px;font-weight:800;letter-spacing:.18em;color:var(--dark-pink)}.stage-header h2{font:700 clamp(36px,5vw,58px)/1 "Playfair Display",serif;margin:8px 0 10px}.stage-header p{margin:0 auto;max-width:590px;color:#865268;line-height:1.6}.ingredient-grid{display:grid;grid-template-columns:repeat(5,1fr);gap:12px;max-width:850px;margin:12px auto 0;width:100%}.ingredient{min-height:132px;border:1px solid #efb4c8;border-radius:23px;background:white;color:var(--wine);padding:16px 10px;cursor:pointer;font:700 13px "DM Sans",sans-serif;transition:.2s;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:10px}.ingredient:hover{transform:translateY(-4px);background:#fff0f5}.ingredient.picked{background:#f45f98;color:white;border-color:#f45f98;transform:scale(.96)}.ingredient.wrong{animation:shake .3s}.ingredient-emoji{font-size:40px}.mix-wrap,.oven-wrap,.decorate-wrap,.result-wrap{display:grid;place-items:center;flex:1}.mix-bowl{width:260px;height:160px;border-radius:18px 18px 130px 130px;background:linear-gradient(#ffd7e5,#f390b3);border:5px solid #db4a81;box-shadow:inset 0 -24px #e86c9b,0 18px 30px #8b34531f;display:grid;place-items:center;position:relative;margin:18px}.mix-swirl{font-size:72px;display:inline-block;transition:.15s}.mix-swirl.spin{transform:rotate(75deg) scale(1.1)}.mix-button,.game-action{border:0;border-radius:999px;background:var(--dark-pink);color:#fff;font-weight:800;padding:15px 28px;cursor:pointer;box-shadow:0 9px 24px #dc27703c}.mix-meter{width:min(420px,90%);height:13px;background:#f1c9d7;border-radius:99px;overflow:hidden;margin:12px}.mix-meter span{display:block;height:100%;width:0;background:var(--pink);transition:.15s}.oven-panel{width:min(650px,100%);background:#6d1938;color:#fff;border-radius:28px;padding:26px;box-shadow:0 24px 40px #53122938}.oven-display{background:#32101e;border-radius:15px;padding:16px;display:flex;justify-content:space-between;font:700 24px "DM Sans",sans-serif;letter-spacing:.04em}.oven-window{height:210px;margin:20px 0;border:8px solid #431125;border-radius:20px;background:radial-gradient(circle at 50% 70%,#f46c4c,#5f1829 70%);display:grid;place-items:center;overflow:hidden;position:relative}.oven-food{font-size:92px;filter:drop-shadow(0 15px 10px #2d0b16a8);transition:filter .5s,transform .5s}.oven-food.baking{animation:bakePulse .8s infinite alternate}.oven-controls{display:flex;gap:12px;justify-content:center;flex-wrap:wrap}.oven-controls button{border:1px solid #ffffff55;background:#8d2a4d;color:white;border-radius:12px;padding:11px 15px;font-weight:700;cursor:pointer}.oven-controls .bake-btn{background:#fff;color:#6d1938;padding-inline:24px}.decorate-canvas{width:min(520px,100%);min-height:310px;display:grid;place-items:center;position:relative;background:#ffe4ee;border-radius:34px;margin:0 auto 22px;overflow:hidden}.final-cookie{width:220px;height:220px;border-radius:50%;background:linear-gradient(145deg,#d9914d,#b86d34);box-shadow:inset -15px -14px #9d582d,0 20px 30px #8f4c3033;position:relative}.final-cake{position:relative;width:310px;height:245px;display:flex;flex-direction:column;align-items:center;justify-content:flex-end}.final-cake .cake-heart{font-size:48px;margin-bottom:-5px;z-index:4}.final-cake .cake-l1,.final-cake .cake-l2{border:5px solid #fff2f7;background:#f591b4;box-shadow:inset 0 -12px #dc4f82}.final-cake .cake-l1{width:190px;height:72px;border-radius:24px 24px 9px 9px}.final-cake .cake-l2{width:270px;height:95px;border-radius:24px 24px 10px 10px;margin-top:-4px}.topping-piece{position:absolute;font-size:28px;transform:translate(-50%,-50%);pointer-events:none}.topping-tray{display:flex;flex-wrap:wrap;gap:9px;justify-content:center;max-width:700px}.topping-btn{border:1px solid #e8a4bd;background:white;border-radius:999px;padding:10px 14px;cursor:pointer;font-weight:700;color:var(--wine)}.topping-btn.selected{background:#f45f98;color:#fff}.decorate-actions{display:flex;gap:10px;justify-content:center;margin-top:18px}.score-ring{width:190px;height:190px;border-radius:50%;display:grid;place-items:center;background:conic-gradient(var(--dark-pink) var(--score),#f2ceda 0);position:relative}.score-ring::before{content:"";position:absolute;inset:14px;background:#fff7fa;border-radius:50%}.score-number{position:relative;text-align:center;font:700 54px/1 "Playfair Display",serif}.score-number small{display:block;font:700 11px "DM Sans",sans-serif;letter-spacing:.12em;margin-top:8px}.result-card{text-align:center}.result-card h2{font:700 48px/1 "Playfair Display",serif;margin:20px 0 8px}.result-card p{color:#865268;max-width:550px;line-height:1.6}.result-actions{display:flex;gap:10px;justify-content:center;flex-wrap:wrap;margin-top:20px}.game-action.secondary{background:white;color:var(--dark-pink);border:1px solid #e69eb8;box-shadow:none}.toast{position:fixed;left:50%;bottom:35px;transform:translateX(-50%) translateY(20px);background:#5d1730;color:#fff;padding:12px 18px;border-radius:999px;z-index:120;font-size:13px;font-weight:700;opacity:0;pointer-events:none;transition:.25s}.toast.show{opacity:1;transform:translateX(-50%) translateY(0)}@keyframes shake{25%{transform:translateX(-5px)}75%{transform:translateX(5px)}}@keyframes bakePulse{to{transform:scale(1.06);filter:drop-shadow(0 15px 10px #2d0b16a8) brightness(1.18)}}
+@media(max-width:850px){.game-cards{grid-template-columns:1fr}.game-card{min-height:480px}.ingredient-grid{grid-template-columns:repeat(3,1fr)}.game-topbar{grid-template-columns:1fr auto}.game-progress{display:none}.game-shell{height:calc(100vh - 20px);border-radius:22px}.game-modal{padding:10px}.game-stage{padding-top:28px}}
+@media(max-width:520px){.game-card-art{height:260px}.game-card{min-height:450px}.game-card-copy{padding:0 25px 27px}.ingredient-grid{grid-template-columns:repeat(2,1fr)}.ingredient{min-height:108px}.ingredient-emoji{font-size:32px}.game-brand span{display:none}.oven-window{height:170px}.decorate-canvas{min-height:270px}.final-cookie{width:190px;height:190px}.final-cake{transform:scale(.86)}}
+@media(prefers-reduced-motion:reduce){.game-card,.sparkle,.oven-food.baking{animation:none!important;transition:none!important}}
+
+/* ===== CHOCOAMOR PLAY 2.0 · cocina de pedidos ===== */
+.game-shell{width:min(1180px,100%);height:min(820px,calc(100vh - 28px));background:#fff3f7;border:5px solid #fff;border-radius:30px;box-shadow:0 35px 90px #32101e66}
+.game-stage{padding:0;background:linear-gradient(#ffd9e6 0 58%,#f5b9cd 58%);overflow:hidden}
+.factory-game{height:100%;display:flex;flex-direction:column}.factory-hud{height:64px;background:#8e2850;color:#fff;display:grid;grid-template-columns:1fr auto 1fr;align-items:center;padding:0 24px;border-bottom:4px solid #6f173a;box-shadow:0 4px 0 #ffffff35 inset}.factory-hud>div:first-child{display:flex;flex-direction:column}.factory-hud strong{font:700 18px "Playfair Display",serif}.factory-hud span{font-size:11px;opacity:.8}.factory-score{justify-self:center;background:#fff4c8;color:#70213f;padding:8px 17px;border-radius:14px;border:3px solid #f5cc67;font-weight:800}.factory-lives{justify-self:end;font-size:22px;letter-spacing:3px;color:#ffd2e2;text-shadow:0 2px #661936}
+.factory-room{flex:1;min-height:0;display:grid;grid-template-columns:240px 1fr;gap:18px;padding:20px;background:radial-gradient(circle at 60% 5%,#fff6fa 0 5%,transparent 6%),linear-gradient(180deg,#ffd8e5 0 62%,#f0a9c2 62%)}
+.order-ticket{background:#fffdf3;border:3px solid #e7c779;border-radius:12px;padding:22px 16px 14px;box-shadow:5px 7px 0 #9e315850;position:relative;transform:rotate(-1deg);align-self:start;max-height:100%;overflow:auto}.ticket-pin{width:35px;height:35px;border-radius:50%;display:grid;place-items:center;background:#dc2770;color:white;position:absolute;right:12px;top:10px;border:3px solid #fff;box-shadow:0 2px 5px #72243f55}.order-ticket small{font-weight:900;letter-spacing:.12em;color:#a16f22}.order-ticket h3{font:700 27px "Playfair Display",serif;margin:5px 0 15px}.ticket-items{display:grid;gap:9px}.ticket-items div{display:grid;grid-template-columns:30px 1fr;column-gap:7px;padding:8px;border-bottom:1px dashed #d8bc7a}.ticket-items span{grid-row:1/3;font-size:22px}.ticket-items b{font-size:11px;text-transform:uppercase;letter-spacing:.06em}.ticket-items em{font-style:normal;font-size:12px;color:#805969}
+.factory-work{min-width:0;display:flex;flex-direction:column;align-items:center;justify-content:center;position:relative;padding:8px 12px 20px}.station-sign{display:flex;gap:10px;align-items:center;background:#fff4f8;border:4px solid #d85b88;border-radius:20px;padding:8px 20px;box-shadow:0 6px 0 #a3315a;margin-bottom:9px}.station-sign>span{font-size:33px}.station-sign small{font-weight:900;letter-spacing:.12em;color:#ba3b69}.station-sign h2{font:700 27px/1 "Playfair Display",serif;margin:2px 0;color:#651d3a}
+.conveyor{width:min(720px,100%);height:250px;position:relative;display:flex;align-items:center;justify-content:center}.conveyor-belt{position:absolute;left:0;right:0;bottom:25px;height:60px;background:#7d6780;border:5px solid #564259;border-radius:18px;display:flex;justify-content:space-around;align-items:center;box-shadow:0 9px 0 #49384b}.conveyor-belt i{width:35px;height:35px;border-radius:50%;background:#cab8cc;border:5px solid #5a465d;box-shadow:inset 0 0 0 4px #927d95}.product-platform{position:relative;z-index:2;display:grid;place-items:center;min-width:300px;min-height:190px;animation:conveyorIn .45s ease-out}
+.machine-panel{background:#fef6fb;border:4px solid #dc77a0;border-radius:23px;padding:15px 18px 17px;box-shadow:0 7px 0 #a93b68;width:min(700px,100%);text-align:center}.machine-panel p{margin:0 0 12px;font-weight:800;color:#78304b}.machine-options{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}.machine-options button{min-height:92px;border:3px solid #e6a2bb;border-radius:16px;background:#fff;color:#61203b;font:inherit;font-weight:800;cursor:pointer;box-shadow:0 5px 0 #c96b90;transition:.15s}.machine-options button:hover{transform:translateY(-3px);background:#fff0f6}.machine-options button span{display:block;font-size:31px;margin-bottom:4px}.machine-options button.correct{background:#dff5d8;border-color:#7fba6e}.machine-options button.wrong{animation:shake .3s;background:#ffe0e5;border-color:#e46879}
+.factory-cookie{width:150px;height:150px;border-radius:50%;background:#dfb275;border:8px solid #c78e52;position:relative;box-shadow:inset -12px -12px #b77e45,0 12px 0 #79543645;transition:.3s}.factory-cookie.shape-heart{border-radius:18px 18px 70px 70px;transform:rotate(-45deg) scale(.82)}.factory-cookie.shape-heart:before,.factory-cookie.shape-heart:after{content:"";position:absolute;width:100%;height:100%;border-radius:50%;background:inherit;border:inherit;box-sizing:border-box}.factory-cookie.shape-heart:before{left:50%;top:0}.factory-cookie.shape-heart:after{left:0;top:-50%}.factory-cookie.shape-heart>*{z-index:4}.factory-cookie.shape-star{clip-path:polygon(50% 0,61% 34%,98% 35%,68% 56%,79% 93%,50% 72%,21% 93%,32% 56%,2% 35%,39% 34%);border-radius:0}.factory-cookie.flavor-choco{background:#7f452f;border-color:#693321;box-shadow:inset -12px -12px #562718,0 12px 0 #46211555}.factory-cookie.flavor-strawberry{background:#eaa0a7;border-color:#ce747e}.factory-cookie.bake-soft{filter:brightness(1.08)}.factory-cookie.bake-golden{filter:saturate(1.1)}.factory-cookie.bake-crisp{filter:brightness(.78)}.cookie-icing{position:absolute;inset:18px;border-radius:inherit;opacity:.95}.cookie-icing.icing-pink{background:#f58cb4}.cookie-icing.icing-white{background:#fff6ef}.cookie-icing.icing-choco{background:#74402e}.cookie-icing.icing-:empty{display:none}.cookie-topper{position:absolute;inset:0;display:grid;place-items:center;text-align:center;font-size:27px;font-weight:900;letter-spacing:7px;color:#fff;text-shadow:0 2px #6e2442;z-index:8}.factory-cookie.shape-heart .cookie-icing,.factory-cookie.shape-heart .cookie-topper{transform:rotate(45deg)}
+.factory-cake{width:180px;height:135px;position:relative;border-radius:26px 26px 13px 13px;background:#f2d39b;border:7px solid #d7aa6d;box-shadow:inset 0 -18px #d4a266,0 12px 0 #70492d40}.factory-cake.cake-heart{border-radius:36px 36px 55px 55px}.factory-cake.cake-square{border-radius:9px}.factory-cake.cakeflavor-choco{background:#75402d;border-color:#633221;box-shadow:inset 0 -18px #542818,0 12px 0 #43231845}.factory-cake.cakeflavor-red{background:#a93445;border-color:#872738;box-shadow:inset 0 -18px #7d2030,0 12px 0 #43231845}.cake-filling{position:absolute;left:-7px;right:-7px;height:17px;top:59px;border:3px solid #fff5}.fill-berry{background:#a71e50}.fill-arequipe{background:#d68d37}.fill-choco{background:#4e261c}.cake-frosting{position:absolute;left:-7px;right:-7px;top:-7px;height:44px;border-radius:20px 20px 12px 12px}.cake-frosting.icing-pink{background:#f58cb4}.cake-frosting.icing-white{background:#fff6ef}.cake-frosting.icing-choco{background:#74402e}.cake-topper{position:absolute;left:0;right:0;top:-44px;text-align:center;font-size:37px;font-weight:900;color:#d73070;text-shadow:0 2px white}.factory-cookie.mini,.factory-cake.mini{transform:scale(.55);margin:-30px}.finished-shelf{display:flex;gap:22px;justify-content:center;align-items:center;min-height:130px;margin:8px 0 18px}
+.oven-machine{width:min(690px,100%);background:#71304e;border:5px solid #542139;border-radius:24px;padding:15px 18px;text-align:center;color:white;box-shadow:0 8px 0 #40172b}.oven-door{width:210px;height:130px;background:#33151f;border:8px solid #a66b82;border-radius:17px;margin:0 auto 12px;display:grid;place-items:center;overflow:hidden}.oven-glow{width:100%;height:100%;display:grid;place-items:center;background:radial-gradient(circle,#ffbd75,#b94b52 45%,#30131d 80%);transform:scale(.62)}.oven-gauge{display:grid;grid-template-columns:auto 1fr auto;align-items:center;gap:9px;font-size:10px;font-weight:900}.gauge-track{height:22px;background:#402030;border:3px solid #e8c1d0;border-radius:999px;position:relative}.gauge-track .sweet-zone{position:absolute;left:38%;width:28%;top:2px;bottom:2px;background:#f283ad;border-radius:999px}.gauge-track i{position:absolute;top:-8px;left:0;width:8px;height:34px;background:#fff8c7;border-radius:5px;z-index:2;box-shadow:0 0 0 2px #874f1f}.oven-machine button{margin-top:12px;border:3px solid #fff4bd;background:#f7cf54;color:#6b263f;border-radius:13px;padding:11px 24px;font-weight:900;cursor:pointer;box-shadow:0 5px 0 #9e6e16}.oven-machine small{display:block;margin-top:8px;opacity:.8}
+.order-complete,.factory-final{height:100%;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:25px;background:radial-gradient(circle at center,#fff9fb 0 35%,#ffdbe7 70%)}.order-complete>.factory-cookie,.order-complete>.factory-cake{margin:20px 0}.complete-sparkles{font-size:32px;color:#e9427d;letter-spacing:9px;animation:floatSpark 1.4s ease-in-out infinite}.order-complete h2,.factory-final h2{font:700 clamp(42px,6vw,65px)/1 "Playfair Display",serif;margin:10px 0;color:#6c1f3e}.order-complete p,.factory-final p{max-width:550px;color:#8c5a6e}.receipt{background:#fffdf3;border:2px dashed #c8a65d;padding:10px 28px;margin:10px 0 18px;transform:rotate(-1deg)}.receipt span{display:block;font-size:9px;letter-spacing:.17em;font-weight:900}.receipt strong{font-size:28px}.sad-cookie{font-size:75px}.final-stars{font-size:52px;letter-spacing:10px;color:#e6ab32;text-shadow:0 3px #a16a0a}.big-score{width:170px;height:170px;border-radius:50%;background:#8e2850;color:white;display:grid;place-items:center;align-content:center;border:8px solid #fff;box-shadow:0 0 0 5px #e7779f,0 12px 25px #7a21434a;margin:12px}.big-score span{font:700 47px "Playfair Display",serif}.big-score small{font-size:10px;letter-spacing:.14em}.factory-final .result-actions{margin-top:0}
+@keyframes conveyorIn{from{transform:translateX(-120px);opacity:0}to{transform:translateX(0);opacity:1}}
+@media(max-width:760px){.factory-room{grid-template-columns:1fr;padding:10px;overflow:auto}.order-ticket{width:100%;transform:none;display:block}.ticket-items{grid-template-columns:repeat(5,1fr);gap:4px}.ticket-items div{display:flex;flex-direction:column;align-items:center;text-align:center;border:0;padding:4px}.ticket-items span{font-size:17px}.ticket-items em{font-size:9px}.ticket-items b{font-size:8px}.conveyor{height:205px}.factory-cookie{transform:scale(.8)}.factory-cake{transform:scale(.82)}.machine-options button{min-height:78px}.factory-hud{grid-template-columns:1fr auto}.factory-score{display:none}.game-stage{overflow:auto}.factory-room{min-height:690px}.station-sign{margin-top:8px}}
+
+/* CHOCOAMOR PLAY · MAPA DE SELECCIÓN */
+.games-section{padding:0!important;max-width:none!important;background:#ffd9e6;overflow:hidden}
+.play-world{position:relative;width:100%;min-height:680px;aspect-ratio:16/9;overflow:hidden;background:#f8b9d2}
+.play-world-bg{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;display:block}
+.play-world-overlay{position:absolute;inset:0;z-index:2}
+.play-world-heading{position:absolute;left:50%;top:5%;transform:translateX(-50%);text-align:center;filter:drop-shadow(0 3px 5px rgba(78,25,31,.15));white-space:nowrap}
+.play-world-heading span{display:block;font-size:clamp(1rem,1.5vw,1.35rem);letter-spacing:.28em;font-weight:900;color:#6b2c27}
+.play-world-heading strong{display:block;font-size:clamp(2.7rem,6vw,6rem);line-height:.9;color:#ff4f85;-webkit-text-stroke:3px #fff;text-shadow:0 6px 0 #d73e70;font-family:Georgia,serif}
+.play-world-heading small{display:inline-block;margin-top:13px;padding:8px 20px;border-radius:999px;background:rgba(255,255,255,.9);font-weight:900;color:#71382e;font-size:clamp(.9rem,1.4vw,1.25rem);box-shadow:0 6px 18px rgba(76,26,29,.12)}
+.world-hotspot{position:absolute;border:4px solid rgba(255,255,255,.95);border-radius:24px;padding:12px 18px 13px;background:linear-gradient(#ff7ca4,#f2497d);box-shadow:0 8px 0 #b82f5a,0 12px 25px rgba(76,28,34,.28);color:white;cursor:pointer;min-width:210px;transition:transform .18s ease,filter .18s ease;animation:worldFloat 2.8s ease-in-out infinite;font-family:inherit}
+.world-hotspot:hover,.world-hotspot:focus-visible{transform:translateY(-7px) scale(1.07);filter:brightness(1.08);outline:none}
+.world-hotspot span{font-size:1.5rem;margin-right:7px}.world-hotspot b{font-size:1rem}.world-hotspot em{display:block;font-style:normal;font-size:.78rem;letter-spacing:.15em;margin-top:4px;font-weight:900}
+.world-cookie{left:17%;top:61%}.world-cake{right:16%;top:61%;animation-delay:.4s}
+.play-world-help{position:absolute;left:50%;bottom:3.5%;transform:translateX(-50%);margin:0;padding:9px 18px;background:rgba(255,247,244,.92);border-radius:999px;color:#6d342d;font-weight:800;box-shadow:0 5px 16px rgba(70,28,28,.15);white-space:nowrap}
+@keyframes worldFloat{0%,100%{margin-top:0}50%{margin-top:-6px}}
+@media(max-width:800px){.play-world{min-height:620px;aspect-ratio:auto}.play-world-bg{object-position:center}.play-world-heading{top:5%}.world-hotspot{min-width:160px;padding:10px 12px}.world-cookie{left:4%;top:65%}.world-cake{right:4%;top:65%}.world-hotspot b{font-size:.86rem}.play-world-help{bottom:2%;font-size:.78rem;max-width:90%;white-space:normal;text-align:center}}
+
+/* === Chocoamor Play · selector limpio inspirado en un menú de videojuego === */
+.sr-only{position:absolute!important;width:1px!important;height:1px!important;padding:0!important;margin:-1px!important;overflow:hidden!important;clip:rect(0,0,0,0)!important;white-space:nowrap!important;border:0!important}
+.play-world-clean{min-height:0!important;aspect-ratio:3/2;background:#fce3e2;border-radius:0;box-shadow:none}
+.play-world-clean .play-world-bg{object-fit:contain;background:#fce3e2}
+.play-world-clean .play-world-overlay{position:absolute;inset:0;z-index:2}
+.play-world-clean .world-hotspot{position:absolute;padding:0;min-width:0;border:0;border-radius:28px;background:transparent;box-shadow:none;animation:none;cursor:pointer;transition:background .18s ease,box-shadow .18s ease,transform .18s ease}
+.play-world-clean .world-hotspot:hover,.play-world-clean .world-hotspot:focus-visible{transform:translateY(-2px) scale(1.015);background:rgba(255,255,255,.09);box-shadow:0 0 0 4px rgba(255,255,255,.42),0 10px 30px rgba(122,49,64,.10);outline:none;filter:none}
+.play-world-clean .world-cookie{left:7.3%;top:21.5%;width:36.7%;height:57.5%}
+.play-world-clean .world-cake{right:6.3%;top:21.5%;width:36.7%;height:57.5%;animation-delay:0}
+.play-world-clean .world-back{position:absolute;left:39.5%;bottom:3.8%;width:21%;height:7%;border-radius:999px;cursor:pointer}
+.play-world-clean .world-back:focus-visible{outline:4px solid rgba(114,52,58,.35);outline-offset:3px}
+@media(max-width:800px){
+  .play-world-clean{min-height:0!important;aspect-ratio:3/2!important}
+  .play-world-clean .world-cookie{left:4%;top:22%;width:43%;height:60%}
+  .play-world-clean .world-cake{right:4%;top:22%;width:43%;height:60%}
+  .play-world-clean .world-back{left:34%;bottom:2.5%;width:32%;height:8%}
+}
+
+/* === Selector Chocoamor Play · zoom de casitas + botón exclusivo para iniciar === */
+.play-world-clean{isolation:isolate}
+.play-world-clean .play-world-bg{z-index:0}
+.play-world-clean .play-world-zoom{
+  position:absolute;inset:0;width:100%;height:100%;object-fit:contain;
+  pointer-events:none;z-index:1;transition:transform .34s cubic-bezier(.2,.75,.2,1),filter .34s ease;
+  will-change:transform;filter:drop-shadow(0 0 0 rgba(0,0,0,0));
+}
+.play-world-clean .play-world-zoom-cookie{
+  clip-path:polygon(5% 19%,45% 19%,45% 72%,5% 72%);
+  transform-origin:25% 47%;
+}
+.play-world-clean .play-world-zoom-cake{
+  clip-path:polygon(54% 19%,94% 19%,94% 72%,54% 72%);
+  transform-origin:74% 47%;
+}
+.play-world-clean.cookie-house-hover .play-world-zoom-cookie,
+.play-world-clean.cookie-button-hover .play-world-zoom-cookie{
+  transform:scale(1.055);
+  filter:drop-shadow(0 16px 14px rgba(116,57,54,.16));
+}
+.play-world-clean.cake-house-hover .play-world-zoom-cake,
+.play-world-clean.cake-button-hover .play-world-zoom-cake{
+  transform:scale(1.055);
+  filter:drop-shadow(0 16px 14px rgba(116,57,54,.16));
+}
+.play-world-clean .world-house-hover{
+  position:absolute;z-index:3;background:transparent;border:0;
+  cursor:default;
+}
+.play-world-clean .world-cookie-house{left:8.5%;top:22%;width:34%;height:44%}
+.play-world-clean .world-cake-house{right:7.5%;top:22%;width:35%;height:44%}
+.play-world-clean .world-play-button{
+  position:absolute;z-index:5;border:0;background:transparent;border-radius:999px;
+  padding:0;cursor:pointer;appearance:none;-webkit-appearance:none;
+  transition:transform .18s ease,box-shadow .18s ease;
+}
+.play-world-clean .world-cookie-play{left:19.5%;top:68.4%;width:19%;height:8.5%}
+.play-world-clean .world-cake-play{right:18.4%;top:68.4%;width:19%;height:8.5%}
+.play-world-clean .world-play-button:hover{transform:scale(1.035)}
+.play-world-clean .world-play-button:focus-visible{
+  outline:3px solid rgba(123,48,52,.52);outline-offset:3px;
+  box-shadow:0 0 0 6px rgba(255,255,255,.55)
+}
+/* Desactiva los hotspots grandes de versiones anteriores */
+.play-world-clean .world-hotspot{display:none!important}
+@media(max-width:800px){
+  .play-world-clean .world-cookie-house{left:5%;top:23%;width:41%;height:43%}
+  .play-world-clean .world-cake-house{right:5%;top:23%;width:41%;height:43%}
+  .play-world-clean .world-cookie-play{left:17%;top:68.5%;width:24%;height:9%}
+  .play-world-clean .world-cake-play{right:17%;top:68.5%;width:24%;height:9%}
+}
+@media(prefers-reduced-motion:reduce){
+  .play-world-clean .play-world-zoom,.play-world-clean .world-play-button{transition:none!important}
+  .play-world-clean.cookie-house-hover .play-world-zoom-cookie,
+  .play-world-clean.cookie-button-hover .play-world-zoom-cookie,
+  .play-world-clean.cake-house-hover .play-world-zoom-cake,
+  .play-world-clean.cake-button-hover .play-world-zoom-cake{transform:none!important}
+}
+
+/* === CHOCOAMOR PLAY · sección editorial inspirada en la experiencia web de Crunchy Munch === */
+.crunchy-games{background:#f7c9d8;overflow:hidden;padding:0 0 88px;color:#56142d;scroll-margin-top:84px}
+.crunchy-games-head{max-width:1180px;margin:auto;padding:92px clamp(22px,7vw,86px) 58px;display:grid;grid-template-columns:1.2fr .8fr;column-gap:60px;align-items:end}
+.crunchy-games-head .crunchy-kicker{grid-column:1/-1;margin:0 0 16px;font-size:12px;font-weight:900;letter-spacing:.28em;color:#d72769}
+.crunchy-games-head h2{margin:0;font:700 clamp(48px,7vw,92px)/.88 "Playfair Display",serif;letter-spacing:-.055em;text-transform:none}
+.crunchy-games-head>p:last-child{margin:0 0 7px;font-size:18px;line-height:1.65;color:#7c3b53;max-width:420px}
+.games-marquee{width:100%;overflow:hidden;background:#5a122d;color:#ffd7e5;border-top:1px solid #7c2947;border-bottom:1px solid #7c2947;transform:rotate(-1deg);margin:10px 0 70px}
+.games-marquee-track{width:max-content;display:flex;align-items:center;gap:28px;padding:15px 0;animation:chocoTicker 22s linear infinite;font-size:13px;font-weight:900;letter-spacing:.22em}
+.games-marquee-track b{font-size:17px;color:#f8659a}
+@keyframes chocoTicker{to{transform:translateX(-50%)}}
+.crunchy-game-list{max-width:1180px;margin:auto;padding:0 clamp(22px,7vw,86px);display:flex;flex-direction:column;gap:82px}
+.crunchy-game-card{display:grid;grid-template-columns:1fr 1fr;gap:clamp(32px,6vw,82px);align-items:center}
+.game-poster{position:relative;min-height:520px;border-radius:4px;overflow:hidden;isolation:isolate;box-shadow:0 24px 60px rgba(88,18,45,.16);transition:transform .35s cubic-bezier(.2,.8,.2,1),box-shadow .35s ease}
+.crunchy-game-card:hover .game-poster{transform:rotate(-1.2deg) scale(1.015);box-shadow:0 34px 75px rgba(88,18,45,.22)}
+.cake-game-card:hover .game-poster{transform:rotate(1.2deg) scale(1.015)}
+.cookie-poster{background:radial-gradient(circle at 22% 20%,#ffdce7 0 10%,transparent 10.5%),linear-gradient(145deg,#f46496 0 52%,#ffd0df 52%)}
+.cookie-poster:before{content:"";position:absolute;inset:0;background:repeating-linear-gradient(45deg,transparent 0 35px,rgba(255,255,255,.12) 35px 37px);z-index:-1}
+.cookie-hero{position:absolute;width:300px;aspect-ratio:1;border-radius:50%;left:50%;top:49%;transform:translate(-50%,-50%) rotate(-11deg);background:radial-gradient(circle at 35% 32%,#f1bd75 0,#cc7d3c 72%);box-shadow:inset -24px -28px 0 #a85a2e,0 25px 40px rgba(83,32,34,.27)}
+.cookie-hero:after{content:"";position:absolute;inset:16px;border-radius:50%;border:2px dashed rgba(105,49,28,.22)}
+.cookie-hero i{position:absolute;width:34px;height:28px;border-radius:48% 52% 50% 46%;background:#4c221d;box-shadow:inset -5px -5px #2f1210}
+.cookie-hero i:nth-child(1){left:23%;top:25%}.cookie-hero i:nth-child(2){left:57%;top:18%}.cookie-hero i:nth-child(3){left:68%;top:51%}.cookie-hero i:nth-child(4){left:35%;top:58%}.cookie-hero i:nth-child(5){left:18%;top:69%}.cookie-hero i:nth-child(6){left:52%;top:78%}
+.cake-poster{background:linear-gradient(160deg,#fff1f5 0 42%,#ef5e90 42%)}
+.cake-poster img{position:absolute;width:76%;height:76%;object-fit:contain;left:50%;top:47%;transform:translate(-50%,-50%) rotate(3deg);filter:drop-shadow(0 28px 24px rgba(75,24,40,.22))}
+.poster-sticker{position:absolute;left:24px;top:24px;background:#fff8fb;border:1px solid rgba(83,20,45,.15);padding:10px 13px;border-radius:999px;font-size:10px;font-weight:900;letter-spacing:.16em;z-index:3;box-shadow:0 6px 14px rgba(82,18,43,.08)}
+.poster-word{position:absolute;left:28px;bottom:24px;font:900 clamp(46px,5vw,74px)/.78 "DM Sans",sans-serif;letter-spacing:-.07em;color:#fff;text-shadow:0 3px 0 rgba(91,20,43,.18);z-index:3}
+.cake-poster .poster-word{color:#5a122d;text-shadow:none}
+.poster-spark{position:absolute;z-index:4;font-size:34px}.spark-a{right:28px;top:28px;color:#fff}.spark-b{right:36px;bottom:34px;color:#5a122d}
+.crunchy-game-copy{padding:10px 0}.game-number{font-size:11px;font-weight:900;letter-spacing:.2em;color:#d72769;margin:0 0 19px}.crunchy-game-copy h3{margin:0 0 25px;font:700 clamp(44px,5.2vw,72px)/.9 "Playfair Display",serif;letter-spacing:-.05em}.crunchy-game-copy>p:not(.game-number){font-size:17px;line-height:1.72;color:#764055;max-width:500px;margin:0 0 30px}.crunchy-play{border:0;border-bottom:2px solid #5a122d;background:transparent;color:#5a122d;padding:10px 1px 8px;font:900 13px "DM Sans",sans-serif;letter-spacing:.12em;cursor:pointer;display:inline-flex;align-items:center;gap:14px;transition:gap .2s,color .2s,border-color .2s}.crunchy-play span{font-size:20px;line-height:1}.crunchy-play:hover,.crunchy-play:focus-visible{gap:22px;color:#d72769;border-color:#d72769;outline:none}.games-footer-line{max-width:1040px;margin:85px auto 0;padding:18px 25px;border-top:1px solid rgba(90,18,45,.28);border-bottom:1px solid rgba(90,18,45,.28);display:flex;justify-content:space-between;gap:15px;font-size:10px;font-weight:900;letter-spacing:.16em;color:#7b3650}
+/* El antiguo selector por imagen queda fuera del layout. */
+.games-section,.play-world{display:none!important}
+@media(max-width:820px){.crunchy-games-head{grid-template-columns:1fr;gap:24px;padding-top:70px}.crunchy-games-head>p:last-child{max-width:620px}.crunchy-game-card{grid-template-columns:1fr;gap:34px}.cake-game-card .crunchy-game-copy{order:2}.cake-game-card .cake-poster{order:1}.game-poster{min-height:440px}.crunchy-game-list{gap:68px}.games-footer-line{margin-inline:20px;flex-wrap:wrap;justify-content:center}.games-marquee{margin-bottom:55px}}
+@media(max-width:520px){.crunchy-games{padding-bottom:65px}.crunchy-games-head{padding:60px 20px 42px}.crunchy-games-head h2{font-size:52px}.crunchy-game-list{padding:0 20px}.game-poster{min-height:360px}.cookie-hero{width:230px}.poster-word{font-size:48px}.crunchy-game-copy h3{font-size:46px}.games-marquee-track{gap:20px}.games-footer-line{display:none}}
+@media(prefers-reduced-motion:reduce){.games-marquee-track{animation:none}.game-poster,.crunchy-play{transition:none}}
+
+/* Galería de galletas Chocoamor — sin fondo propio */
+.cookie-gallery{background:transparent!important;overflow:hidden}
+.cookie-gallery .section-title{max-width:760px}
+.cookie-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:22px;max-width:1200px;margin:34px auto 0}
+.cookie-card{margin:0;min-width:0;background:transparent;text-align:center}
+.cookie-photo{height:430px;border-radius:24px;overflow:hidden;background:transparent;box-shadow:0 12px 34px rgba(104,19,49,.10)}
+.cookie-photo img{width:100%;height:100%;object-fit:cover;display:block;transition:transform .55s cubic-bezier(.2,.75,.25,1),filter .35s ease}
+.cookie-card:hover .cookie-photo img{transform:scale(1.11);filter:saturate(1.04)}
+.cookie-card h3{font:700 22px "Playfair Display",serif;color:var(--dark-pink);margin:14px 0 0}
+@media(max-width:850px){.cookie-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.cookie-photo{height:390px}}
+@media(max-width:520px){.cookie-grid{grid-template-columns:1fr;gap:26px}.cookie-photo{height:470px}.cookie-card h3{font-size:20px}}
+@media(prefers-reduced-motion:reduce){.cookie-photo img{transition:none}.cookie-card:hover .cookie-photo img{transform:none}}
+
+/* Galletas — fotografías originales sin edición */
+.cookie-gallery{background:transparent!important}
+.cookie-heading strong{color:var(--hot-pink)}
+.cookie-original-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:18px;max-width:1240px;margin:34px auto 52px}
+.cookie-original-card{min-width:0}
+.cookie-original-photo{height:430px;border-radius:22px;overflow:hidden;background:#f8d1df}
+.cookie-original-photo img{width:100%;height:100%;object-fit:cover;display:block;transition:transform .5s cubic-bezier(.2,.7,.2,1)}
+.cookie-original-card:hover .cookie-original-photo img{transform:scale(1.055)}
+.cookie-original-card h3{font:700 22px "Playfair Display",serif;color:var(--dark-pink);margin:17px 0 7px}
+.cookie-original-card p{font-size:15px;line-height:1.55;margin:0 0 9px;color:var(--text)}
+.cookie-original-card>strong{color:var(--hot-pink);font-size:17px}
+.cookie-flavor-box{max-width:1240px;margin:0 auto;border:1px solid rgba(224,48,111,.3);border-radius:24px;padding:28px 30px;background:rgba(255,255,255,.58)}
+.cookie-flavor-title{display:flex;justify-content:space-between;gap:24px;align-items:end;padding-bottom:18px;border-bottom:1px solid rgba(224,48,111,.18)}
+.cookie-flavor-title h3{font:700 34px "Playfair Display",serif;margin:4px 0;color:var(--dark-pink)}
+.same-price{background:#ffd8e6;border-radius:999px;padding:13px 20px;white-space:nowrap}.same-price strong{color:var(--hot-pink);font-size:20px;margin-left:5px}
+.cookie-price-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));column-gap:32px;margin-top:10px}
+.cookie-price-grid>div{display:grid;grid-template-columns:34px 1fr auto;align-items:center;gap:10px;padding:14px 0;border-bottom:1px dotted rgba(126,25,59,.25)}
+.cookie-price-grid span{color:var(--hot-pink)}.cookie-price-grid b{font-weight:600}.cookie-price-grid strong{color:var(--hot-pink)}
+@media(max-width:950px){.cookie-original-grid{grid-template-columns:repeat(2,1fr)}.cookie-price-grid{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:600px){.cookie-original-grid,.cookie-price-grid{grid-template-columns:1fr}.cookie-original-photo{height:500px}.cookie-flavor-title{align-items:flex-start;flex-direction:column}.same-price{white-space:normal}}
+
+/* Chocoamor Play — corazones transparentes integrados */
+.game-poster.heart-poster{background:#f45f98;}
+.game-poster.heart-poster::before{content:"";position:absolute;inset:0;background:linear-gradient(145deg,rgba(255,255,255,.08),transparent 45%,rgba(255,255,255,.12));z-index:-1}
+.game-poster.heart-poster .heart-game-art{position:absolute;width:88%;height:78%;object-fit:contain;left:50%;top:43%;transform:translate(-50%,-50%);filter:drop-shadow(0 22px 22px rgba(82,18,43,.18));transition:transform .4s cubic-bezier(.2,.8,.2,1);}
+.crunchy-game-card:hover .heart-game-art{transform:translate(-50%,-50%) scale(1.045)}
+.cookie-poster.heart-poster{background:linear-gradient(145deg,#f45f98,#f9a9c5)}
+.cake-poster.heart-poster{background:linear-gradient(160deg,#fff1f5 0 38%,#ef5e90 38%)}
+.cake-poster.heart-poster .heart-game-art{width:86%;height:76%;top:42%;}
+@media(max-width:520px){.game-poster.heart-poster .heart-game-art{width:94%;height:74%;top:42%}}
+
+
+/* Lista real de sabores — una opción por fila */
+.cookie-price-grid{display:block!important;margin-top:10px}
+.cookie-price-grid>div{display:flex!important;justify-content:space-between;align-items:center;gap:20px;padding:14px 2px;border-bottom:1px dotted rgba(126,25,59,.25)}
+.cookie-price-grid>div:last-child{border-bottom:0}
+.cookie-price-grid b{font-weight:600;color:var(--text)}
+.cookie-price-grid strong{color:#e0306f!important;font-size:17px;white-space:nowrap}
+
+/* Ajuste solicitado: sabores de galletas en una sola lista hacia abajo */
+.cookie-price-grid{
+  display:flex;
+  flex-direction:column;
+  gap:9px;
+  margin-top:18px;
+  max-width:760px;
+}
+.cookie-price-grid>div{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap:20px;
+  padding:10px 14px;
+  border:0;
+  border-radius:999px;
+  background:#ffd5e4;
+  font-size:13px;
+}
+.cookie-price-grid>div b{font-weight:600;color:var(--wine)}
+.cookie-price-grid>div strong{color:#e32670;font-weight:800;white-space:nowrap}
+
+/* La cinta de Chocoamor Play pasa de vino tinto a rosado, como la cinta del menú */
+.games-marquee{
+  background:#dc2770;
+  color:#fff7fa;
+  border-top-color:#ef78a5;
+  border-bottom-color:#ef78a5;
+}
+.games-marquee-track b{color:#ffd2e2}
+
+/* Sabores de galletas — tarjetas independientes con zoom */
+.cookie-price-grid{
+  display:flex;
+  flex-direction:column;
+  gap:12px;
+  margin-top:20px;
+}
+.cookie-price-grid>div{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  width:100%;
+  box-sizing:border-box;
+  padding:13px 18px;
+  background:#ffd5e4;
+  border:1px solid rgba(224,48,111,.10);
+  border-radius:18px;
+  box-shadow:0 3px 10px rgba(126,25,59,.04);
+  transition:transform .22s ease, box-shadow .22s ease, background-color .22s ease;
+  transform-origin:center;
+}
+.cookie-price-grid>div:hover{
+  transform:scale(1.025);
+  background:#ffc9dc;
+  box-shadow:0 9px 22px rgba(126,25,59,.13);
+  z-index:2;
+}
+.cookie-price-grid>div b{font-weight:600;color:var(--dark-pink)}
+.cookie-price-grid>div strong{color:var(--hot-pink);font-weight:800}
+@media(max-width:950px){.cookie-price-grid{display:flex;flex-direction:column}}
+
+/* Ajuste final — cuadro de sabores con movimiento/zoom al pasar el cursor */
+.cookie-flavor-box{
+  transition:transform .32s cubic-bezier(.2,.8,.2,1), box-shadow .32s ease, border-color .32s ease;
+  transform-origin:center;
+  will-change:transform;
+}
+.cookie-flavor-box:hover{
+  transform:translateY(-7px) scale(1.018);
+  box-shadow:0 22px 42px rgba(91,16,45,.14);
+  border-color:rgba(91,16,45,.34);
+}
+
+/* Nombres de sabores en tono oscuro; el precio conserva el rosado */
+.cookie-price-grid>div b{
+  color:#54142d !important;
+  font-weight:700;
+}
+.cookie-price-grid>div:hover b{
+  color:#3f0d22 !important;
+}
+
+@media (prefers-reduced-motion:reduce){
+  .cookie-flavor-box,.cookie-price-grid>div{transition:none!important}
+  .cookie-flavor-box:hover,.cookie-price-grid>div:hover{transform:none!important}
+}

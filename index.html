@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Chocoamor: postres, bebidas y tortas personalizadas en Fredonia, Antioquia.">
+  <title>Chocoamor | Repostería en Fredonia</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;600;700&family=Playfair+Display:ital,wght@0,700;1,600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="header">
+    <a href="#inicio" class="logo-link"><img src="images/logo-chocoamor-heart.png" alt="Logo de Chocoamor"></a>
+    <button class="menu-button" aria-label="Abrir menú" aria-expanded="false">☰</button>
+    <nav>
+      <a href="#nosotros">Nosotros</a><a href="#menu">Menú</a>
+      <a href="#juegos">Juegos</a><a href="#tortas">Tortas</a><a href="#galletas">Galletas</a><a href="#contacto">Contacto</a>
+    </nav>
+    <div class="header-actions">
+      <a class="button header-button instagram-link" href="#" target="_blank" rel="noopener">Instagram ↗</a>
+      <a class="button header-button header-whatsapp whatsapp-link" href="#" target="_blank" rel="noopener">WhatsApp ↗</a>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="inicio">
+      <div class="hero-content">
+        <p class="eyebrow">Repostería · Fredonia</p>
+        <h1>Un antojo hecho<br><em>con mucho amor.</em></h1>
+        <p class="intro">Postres, fresas, bebidas y detalles dulces para convertir cualquier momento en uno especial.</p>
+        <div class="actions"><a class="button primary" href="#menu">Ver el menú</a><a class="button outline whatsapp-link" href="#" target="_blank" rel="noopener">Pedir por WhatsApp</a></div>
+      </div>
+      <div class="hero-card"><span>♥</span><img src="images/logo-chocoamor-heart.png" alt="Chocoamor"><p>La vida es mejor con un poquito de dulce.</p></div>
+    </section>
+
+    <div class="ribbon"><span>FRESAS</span><b>♥</b><span>POSTRES</span><b>♥</b><span>BEBIDAS</span><b>♥</b><span>TORTAS</span></div>
+
+    <section class="about section" id="nosotros">
+      <div class="about-mark"><img src="images/logo-chocoamor-heart.png" alt="Logo original de Chocoamor"></div>
+      <div>
+        <p class="eyebrow">Nuestra historia</p>
+        <h2>Nosotros</h2>
+        <p>En Chocoamor creamos momentos dulces con postres preparados con dedicación, sabor y mucho cariño. Desde Fredonia, Antioquia, acompañamos tus antojos y celebraciones con fresas, bebidas, tortas y detalles hechos especialmente para ti.</p>
+        <p>Queremos que cada visita se sienta cercana, alegre y llena de amor.</p>
+      </div>
+    </section>
+
+
+    <section class="crunchy-games" id="juegos" aria-labelledby="games-title">
+      <div class="crunchy-games-head">
+        <p class="crunchy-kicker">CHOCOAMOR PLAY</p>
+        <h2 id="games-title">Juega, hornea<br>y crea algo dulce.</h2>
+        <p>Dos minijuegos hechos para Chocoamor. Elige uno y empieza a preparar.</p>
+      </div>
+
+      <div class="games-marquee" aria-hidden="true">
+        <div class="games-marquee-track">
+          <span>HORNEA</span><b>♥</b><span>JUEGA</span><b>♥</b><span>DECORA</span><b>♥</b><span>CHOCOAMOR</span><b>♥</b>
+          <span>HORNEA</span><b>♥</b><span>JUEGA</span><b>♥</b><span>DECORA</span><b>♥</b><span>CHOCOAMOR</span><b>♥</b>
+        </div>
+      </div>
+
+      <div class="crunchy-game-list">
+        <article class="crunchy-game-card cookie-game-card">
+          <div class="game-poster cookie-poster heart-poster" aria-hidden="true">
+            <div class="poster-sticker">NUEVO JUEGO</div>
+            <img class="heart-game-art" src="images/cookies-heart-transparent.png" alt="">
+            <div class="poster-word">COOKIE<br>LAB</div>
+            <span class="poster-spark spark-a">✦</span><span class="poster-spark spark-b">♥</span>
+          </div>
+          <div class="crunchy-game-copy">
+            <p class="game-number">01 · RECIÉN SALIDA DEL HORNO</p>
+            <h3>Hornea las<br>galletas Chocoamor</h3>
+            <p>Recibe un pedido, elige los ingredientes correctos, controla el punto de horno y termina cada galleta como una verdadera chef Chocoamor.</p>
+            <button class="crunchy-play" type="button" data-game="cookie">JUGAR AHORA <span>↗</span></button>
+          </div>
+        </article>
+
+        <article class="crunchy-game-card cake-game-card">
+          <div class="crunchy-game-copy">
+            <p class="game-number">02 · HECHA PARA CELEBRAR</p>
+            <h3>Crea tu<br>torta Chocoamor</h3>
+            <p>Arma el pedido paso a paso: sabor, relleno, cobertura y decoración. Hazla igual a la tarjeta y suma la mayor cantidad de puntos.</p>
+            <button class="crunchy-play" type="button" data-game="cake">JUGAR AHORA <span>↗</span></button>
+          </div>
+          <div class="game-poster cake-poster heart-poster" aria-hidden="true">
+            <div class="poster-sticker">CHOCOAMOR PLAY</div>
+            <img class="heart-game-art" src="images/cake-heart-transparent.png" alt="">
+            <div class="poster-word">CAKE<br>STUDIO</div>
+            <span class="poster-spark spark-a">✦</span><span class="poster-spark spark-b">♥</span>
+          </div>
+        </article>
+      </div>
+
+      <div class="games-footer-line"><span>2 JUEGOS</span><span>♥</span><span>100% CHOCOAMOR</span><span>♥</span><span>JUEGA EN TU NAVEGADOR</span></div>
+    </section>
+
+    <div class="game-modal" id="game-modal" aria-hidden="true">
+      <div class="game-shell" role="dialog" aria-modal="true" aria-labelledby="game-title">
+        <div class="game-topbar">
+          <div class="game-brand"><img src="images/logo-chocoamor-heart.png" alt=""><span>CHOCOAMOR PLAY</span></div>
+          <div class="game-progress" id="game-progress" aria-label="Progreso del juego"></div>
+          <button class="game-close" id="game-close" type="button" aria-label="Cerrar juego">×</button>
+        </div>
+        <div class="game-stage" id="game-stage"></div>
+      </div>
+    </div>
+
+    <section class="section menu-section" id="menu">
+      <div class="section-title"><p class="eyebrow">Para darte gusto</p><h2>Nuestro menú</h2><p>Elige tu favorito y escríbenos para hacer tu pedido.</p></div>
+      <div class="filters" id="filters"></div>
+      <div class="menu-grid" id="menu-grid"></div>
+      <p class="note">Precios sujetos a cambios. Confirma disponibilidad al hacer tu pedido.</p>
+    </section>
+
+    <section class="cookie-gallery section" id="galletas" aria-labelledby="galeria-galletas">
+      <div class="section-title cookie-heading">
+        <p class="eyebrow">Pequeñas dosis de felicidad</p>
+        <h2 id="galeria-galletas">Galletas Chocoamor</h2>
+        <p>Galletas artesanales, generosas y llenas de sabor. Todas tienen un mismo precio: <strong>$6.000</strong>.</p>
+      </div>
+      <div class="cookie-original-grid">
+        <article class="cookie-original-card"><div class="cookie-original-photo"><img src="images/galleta-original-1.png" alt="Galleta Chocoamor con chocolates"></div><h3>Mucho chocolate, mucho amor</h3><p>Una galleta suave y abundante, coronada con trozos de chocolate para un antojo irresistible.</p></article>
+        <article class="cookie-original-card"><div class="cookie-original-photo"><img src="images/galleta-original-2.png" alt="Galleta Chocoamor con cobertura de chocolate"></div><h3>Hecha para llevar</h3><p>Galleta artesanal con chocolate, perfecta para acompañarte en cualquier momento del día.</p></article>
+        <article class="cookie-original-card"><div class="cookie-original-photo"><img src="images/galleta-original-3.png" alt="Dos galletas Chocoamor"></div><h3>Dos antojos, una misma obsesión</h3><p>Texturas suaves, toppings generosos y combinaciones de chocolate que hacen cada bocado especial.</p></article>
+        <article class="cookie-original-card"><div class="cookie-original-photo"><img src="images/galleta-original-4.png" alt="Galleta Chocoamor rellena"></div><h3>Suavecita por dentro</h3><p>Una galleta de centro tierno y relleno cremoso, pensada para disfrutar hasta el último bocado.</p></article>
+      </div>
+
+      <div class="cookie-flavor-box">
+        <div class="cookie-flavor-title"><div><p class="eyebrow">Nuestros sabores</p><h3>12 sabores para elegir</h3></div><div class="same-price">Todas a <strong>$6.000</strong></div></div>
+        <div class="cookie-price-grid">
+          <div><b>Klim</b><strong>$6.000</strong></div>
+          <div><b>Chocoarequipe</b><strong>$6.000</strong></div>
+          <div><b>Oreo Nutella</b><strong>$6.000</strong></div>
+          <div><b>Red velvet nutella</b><strong>$6.000</strong></div>
+          <div><b>Chocolatosa</b><strong>$6.000</strong></div>
+          <div><b>Nucita</b><strong>$6.000</strong></div>
+          <div><b>Jet</b><strong>$6.000</strong></div>
+          <div><b>Pistacho</b><strong>$6.000</strong></div>
+          <div><b>Maracuyá</b><strong>$6.000</strong></div>
+          <div><b>Frutos rojos</b><strong>$6.000</strong></div>
+          <div><b>Milo</b><strong>$6.000</strong></div>
+          <div><b>Caramelo salado</b><strong>$6.000</strong></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="cakes section" id="tortas">
+      <div class="cake-feature">
+        <img src="images/torta-corazon-rosa-nueva.png" alt="Torta personalizada rosada en forma de corazón">
+        <span>Hechas con amor ♥</span>
+      </div>
+      <div class="cake-copy">
+        <p class="eyebrow">Hechas para ti</p><h2>Tortas personalizadas</h2>
+        <p>Cuéntanos tu idea, la ocasión y el número de porciones. Creamos una torta única para cumpleaños, aniversarios y momentos inolvidables.</p>
+        <div class="cake-data">
+          <div class="flavors"><h3>Sabores</h3><ul><li>Vainilla</li><li>Red velvet</li><li>Maracuyá</li><li>Chocolate</li><li>Café</li><li>Zanahoria</li><li>Tres leches <small>(sin decorar)</small></li></ul></div>
+          <div class="prices"><h3>Porciones y precios</h3><ul><li><span>6 porciones</span><strong>$35.000</strong></li><li><span>10 porciones</span><strong>$50.000</strong></li><li><span>15 porciones</span><strong>$70.000</strong></li><li><span>20 porciones</span><strong>$80.000</strong></li><li><span>Una libra</span><strong>$120.000</strong></li></ul></div>
+        </div>
+        <a class="button primary whatsapp-link" href="#" target="_blank" rel="noopener">Cotizar mi torta</a>
+      </div>
+    </section>
+
+    <section class="cake-gallery section" aria-labelledby="galeria-tortas">
+      <div class="section-title"><p class="eyebrow">Ideas para celebrar</p><h2 id="galeria-tortas">Tortas de referencia</h2><p>Cada diseño puede personalizarse según la ocasión.</p></div>
+      <div class="gallery-grid">
+        <img src="images/torta-azul.png" alt="Torta azul personalizada de cumpleaños">
+        <img src="images/torta-rosa-blanca.png" alt="Torta personalizada rosa y blanca">
+        <img src="images/torta-corazon-corona.png" alt="Torta rosada en forma de corazón con corona">
+        <img src="images/torta-corona.png" alt="Torta personalizada con corona">
+        <img src="images/torta-flores.png" alt="Torta blanca decorada con flores">
+        <img src="images/torta-winnie-pooh.png" alt="Torta en forma de corazón inspirada en Winnie Pooh">
+      </div>
+    </section>
+
+    <section class="contact section" id="contacto">
+      <div><p class="eyebrow">Te esperamos</p><h2>Ven por algo delicioso</h2></div>
+      <div><small>UBICACIÓN</small><h3>Carrera 50 N.° 51-32</h3><p>Fredonia, Antioquia</p></div>
+      <div class="contact-buttons"><a class="instagram-link" href="#" target="_blank" rel="noopener">Instagram <strong>@chocoamor_vhg</strong></a><a class="whatsapp-link" href="#" target="_blank" rel="noopener">WhatsApp <strong>Hacer un pedido</strong></a></div>
+    </section>
+  </main>
+
+  <footer><img src="images/logo-chocoamor-heart.png" alt="Logo de Chocoamor"><p>Hecho con amor en Fredonia, Antioquia.</p><a href="#inicio">Volver arriba ↑</a></footer>
+  <a class="floating-whatsapp whatsapp-link" href="#" target="_blank" rel="noopener">WhatsApp</a>
+  <script src="script.js"></script>
+</body>
+</html>
