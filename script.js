@@ -202,3 +202,18 @@ document.querySelectorAll('[data-game]').forEach(card=>card.addEventListener('cl
 gameClose.addEventListener('click',closeGame);
 gameModal.addEventListener('click',e=>{if(e.target===gameModal)closeGame()});
 document.addEventListener('keydown',e=>{if(e.key==='Escape'&&gameModal.classList.contains('open'))closeGame()});
+
+.footer-copyright {
+  width: 100%;
+  padding: 18px 20px;
+  background-color: #57220f;
+  color: #ffffff;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.footer-copyright p {
+  margin: 0;
+  font-size: 14px;
+  font-weight: 400;
+}

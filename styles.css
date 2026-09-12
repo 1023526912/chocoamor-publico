@@ -575,14 +575,37 @@ footer img:hover{
 
 /* Nombres de sabores en tono oscuro; el precio conserva el rosado */
 .cookie-price-grid>div b{
-  color:#54142d !important;
+  color:#ef78a5 !important;
   font-weight:700;
 }
 .cookie-price-grid>div:hover b{
-  color:#3f0d22 !important;
+  color:#ef78a5 !important;
 }
 
 @media (prefers-reduced-motion:reduce){
   .cookie-flavor-box,.cookie-price-grid>div{transition:none!important}
   .cookie-flavor-box:hover,.cookie-price-grid>div:hover{transform:none!important}
+}
+
+.footer-copyright {
+  width: 100%;
+  min-height: 85px;
+  padding: 20px;
+  background-color: #681331;
+  color: #ffffff;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+  box-sizing: border-box;
+}
+
+.footer-copyright p {
+  margin: 0;
+  width: 100%;
+  font-size: 14px;
+  font-weight: 400;
+  text-align: center;
 }
